@@ -1,5 +1,5 @@
 # VeriBilimiPython
-Kitap Adı :   Veri Bilimi içi PYTHON  
+Kitap Adı :   Veri Bilimi için PYTHON  
 Yazar     :   Dr. Bülent Çobanoğlu
 Yayınevi  :   KODLAB
 e-mail    :   cobanoglubulent@gmail.com
