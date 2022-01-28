@@ -4,6 +4,7 @@ coronavirus/ adresinden 15.02.2021 tarihi itibari ile alınan güncel covid-19
 bulaşıcı hastalık verileri (ülke adları, nüfusları, vaka, test ve ölüm sayıları)
 bilgisayarda ‘covid.xls’ ismi ile tablo şeklinde kaydedilir
 '''
+__author = "Bulent Cobanoglu"
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
