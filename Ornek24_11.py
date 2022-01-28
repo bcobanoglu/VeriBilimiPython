@@ -4,16 +4,16 @@ coronavirus/ adresinden 15.02.2021 tarihi itibari ile alınan güncel covid-19
 bulaşıcı hastalık verileri (ülke adları, nüfusları, vaka, test ve ölüm sayıları)
 bilgisayarda ‘covid.xls’ ismi ile tablo şeklinde kaydedilir
 '''
-__author = "Bulent Cobanoglu"
+__author__ = "Bulent Cobanoglu"
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 tablo = pd.read_excel("covid.xlsx") #excel dosyasını oku
-df=pd.DataFrame(tablo)
+df = pd.DataFrame(tablo)
 #Veri çerçevesinin her bir alanını Numpy dizisine dönüştür
-ulke=df["Ülke"].to_numpy()
-olum=df["Vefat"].to_numpy()
-vaka=df["Vaka"].to_numpy()
+ulke = df["Ülke"].to_numpy()
+olum = df["Vefat"].to_numpy()
+vaka = df["Vaka"].to_numpy()
 sns.barplot(ulke,olum)
 plt.ylabel("Covid-19 Ölümleri (bin)")
 #Her bir sütun üzerine ölüm rakamlarını yazdırma
