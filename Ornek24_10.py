@@ -12,7 +12,7 @@ sns.lmplot(x='Yıl', y='satış', data=df) #grafiği çiz
 plt.show()
 
 
-#Alkol kullanımı ile araç kazaları arasında güçlü bir bağ var
+#Alkol kullanımı ile araç kazaları arasında güçlü bir bağ vardır. Örneğin car_crashes veri kümesini ele alalım
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
