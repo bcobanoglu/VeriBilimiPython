@@ -10,3 +10,12 @@ df=pd.DataFrame({'Yıl':tarih,'satış':[10,25,35,33,41,45,59]})
 sns.set()                               #arka plana seaborn ızgarasını yerleştirir
 sns.lmplot(x='Yıl', y='satış', data=df) #grafiği çiz
 plt.show()
+
+
+#Alkol kullanımı ile araç kazaları arasında güçlü bir bağ var
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+arac_kazalari = sns.load_dataset('car_crashes')
+sns.lmplot(x='alcohol', y='total', data=arac_kazalari) #grafiği çiz
+plt.show()
