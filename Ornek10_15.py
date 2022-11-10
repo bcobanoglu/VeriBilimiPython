@@ -17,3 +17,4 @@ k1_list = ['b', 'a', 'd', 'e']
 k2_list = ['c', 'a', 'n']
 k3_list = ['b', 'e', 'r', 'a', 't']
 str_list = map(ambda x,y,z,t: x+y+z+t, k0_list,k1_list,k2_list,k3_ilst)
+print(list(str_list))
